@@ -1,16 +1,45 @@
 * {
     margin: 0px;
+    padding: 0px;
 
 }
 
-.box{ 
+
+    
+.Belgian { 
     display: flex;
-    
-    
+    align-items: center;
+    width: 100%;
+  
 }
 
 div{
-    width: 200px;
+    width: 33%;
     height: 400px;
     border: 2px  solid black 
 }
+
+.black{
+    background-color: black;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+ 
+    
+@media screen and (max-width: 1450px) {
+    .Belgian  div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+
+
+
+        
+        
